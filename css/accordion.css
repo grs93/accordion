@@ -1,0 +1,84 @@
+body {
+  font-family:'Montserrat';
+  font-size: 16px
+}
+
+.content {
+  max-width: 1000px
+  background-color: #fff
+}
+
+h1-2{
+  font-family: 'Montserrat';
+  font-size: 20px
+}
+
+h4 {
+  font-family: 'Montserrat';
+  font-size: 16px
+}
+
+header {
+background-color: #b19cd9
+}
+
+.img1 {
+  width: 300px
+}
+
+.accordion {
+  margin: 50px;
+}
+.accordion h2,
+.accordion p {
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+.accordion h2:last-of-type,
+.accordion p:last-of-type {
+  border-bottom: 1px solid black;
+}
+.accordion h2 a,
+.accordion p a {
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+.accordion h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.accordion p {
+  border-top: 0;
+  font-size: 12px;
+  background: #efefef;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.accordion p:last-of-type {
+  border-top: 1px solid white;
+  position: relative;
+  top: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#toggle {
+  transition: all 0.5s
+}
+
+.toggle-right {
+  margin-left: -800px
+}
+
+#mcolor:hover{
+  background-color: #00FFFF
+}
+
+.mcolor:hover{
+  background-color: blue
+}

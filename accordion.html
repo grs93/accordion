@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap');
+</style>
+
+    <meta charset="utf-8">
+    <title>Cannes</title>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/accordion.css">
+  <body>
+
+    <div class="content">
+      <header>
+        <header align=center>
+            <h1>Cannes International Festival of Creativity</h1>
+            <h2>Click To Explore!</h2>
+          </header>
+<p align=center>
+🔍✨</p>
+
+<div class="main" align=center>
+      <div class="accordion">
+
+        <h2 id="mcolor"><a href="">Quote</a></h2>
+          <p align=center>
+              <img src="images/1.JPG" class="img1" alt="quote">
+            </p>
+
+            <h2 id="mcolor"><a href="">Beach</a></h2>
+              <p align=center>
+                  <img src="images/2.jpg" class="img1" alt="view">
+                </p>
+
+                <h2 id="mcolor"><a href="">Food</a></h2>
+                  <p align=center>
+                      <img src="images/3.jpg" class="img1" alt="food">
+                    </p>
+
+</div>
+</div>
+ </div>
+
+  <div class="pic">
+  </div>
+
+      </div>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+        var allPanels = $('.accordion > p').hide();
+
+        $('.accordion > h2 > a').click(function() {
+          $(this).parent().next()
+                .slideToggle()
+                .siblings('.hide').slideUp();
+          return false;
+        });
+
+
+
+          });
+
+  </script>
+
+
+  </body>
+</html>
